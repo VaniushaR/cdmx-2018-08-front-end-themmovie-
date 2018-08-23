@@ -6,15 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Movies Ever</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Pacifico|Yantramanav" rel="stylesheet">
+    <!--Materialize min ajax-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body>
-    <h1>Best Movies Ever</h1>
-    <input type="text" id="search" placeholder="título de la película">
-    <button id="btn-search">Search</button>
-    <button id="clean">Limpiar</button>
-    <section id="results"></section>
+<body class="main-body">
+    <div>
+        <!--NavBar-->
+        <div class="navbar-fixed">
+            <nav class="nav-Bar">
+                <div class="nav-wrapper nav-Bar">
+                    <a href="#!" class="brand-logo title">PopCorn Nigths</a>
+                    <a href="#!"><img class="brand-logo right logo" src="assets/popCorn.gif"></a>
+
+                </div>
+                <form class="nav-Bar">
+                    <div class="input-field">
+                        <input id="search" placeholder="              Título de la película" type="search" required>
+                        <label class="label-icon" for="search">
+                            <i class="material-icons right">search</i></label>
+                    </div>
+                </form>
+                <form class="nav-Bar">
+                    <div class="input-field center">
+                        <button id="btn-search" class="btn">
+                            Search</button>
+                    </div>
+                </form>
+            </nav>
+        </div>
+        <section id="container">
+            <section id="results"></section>
+        </section>
+    </div>
 </body>
+<!--Materialize JS Min-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<!--Javascript Link ref-->
 <script src="js/data.js"></script>
+<script SRC="js/main.js"></script>
 
 </html>
+<!--class="right hide-on-med-and-down"-->

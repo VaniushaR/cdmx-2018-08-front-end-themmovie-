@@ -1,3 +1,30 @@
+.main-body {
+  background-color: black;
+}
+
 movie-poster {
   font-size: 400%;
 }
+.nav-Bar { 
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.logo {
+  height: 99%;
+  width: 60;
+  border-radius: 50%;
+}
+.title {
+  font-family: 'Pacifico', cursive;
+}
+.btn {
+  background-color: rgb(194, 36, 40);
+  border-radius: 50%;
+}
+.movie-titles {
+  font-family: 'Anton', sans-serif;
+}
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Yantramanav', sans-serif;
