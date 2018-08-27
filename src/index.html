@@ -15,36 +15,34 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body class="main-body">
-    <div>
-        <!--NavBar-->
-        <div class="navbar-fixed">
-            <nav class="nav-Bar">
-                <div class="nav-wrapper nav-Bar">
-                    <a href="#!" class="brand-logo title">PopCorn Nigths</a>
-                    <a href="#!"><img class="brand-logo right logo" src="assets/popCorn.gif"></a>
-
-                </div>
-                <form class="nav-Bar">
-                    <div class="input-field">
-                        <input id="search" placeholder="              Título de la película" type="search" required>
-                        <label class="label-icon" for="search">
-                            <i class="material-icons right">search</i></label>
-                    </div>
-                </form>
-                <form class="nav-Bar">
-                    <div class="input-field center">
-                        <button id="btn-search" class="btn">
-                            Search</button>
-                    </div>
-                </form>
-            </nav>
-        </div>
-        <section id="container">
-            <section id="results"></section>
-        </section>
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-Bar">
+            <div class="nav-wrapper nav-Bar">
+                <a href="#!" class="brand-logo title">PopCorn Nigths</a>
+                <a href="#!"><img class="brand-logo right logo" src="assets/popCorn.gif"></a>
+            </div>
+        </nav>
+    </div>
+    <div class="navbar-fixed">
+        <nav class="nav-Bar">
+            <div class="input-field">
+                <input type="text" id="search" placeholder="              Título de la película" type="search" required>
+                <label class="label-icon" for="search">
+                    <i class="material-icons right">search</i></label>
+            </div>
+        </nav>
+    </div>
+    <div class="navbar-fixed">
+        <nav class="nav-Bar center-align">
+            <button id="btn-search" class="btn">Search</button>
+        </nav>
+    </div>
+    <div class="main-body">
+        <section id="results"></section>
     </div>
 </body>
+
 <!--Materialize JS Min-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <!--Javascript Link ref-->
@@ -52,4 +50,3 @@
 <script SRC="js/main.js"></script>
 
 </html>
-<!--class="right hide-on-med-and-down"-->
